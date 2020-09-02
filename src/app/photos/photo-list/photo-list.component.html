@@ -1,0 +1,16 @@
+<ap-search 
+    (onTyping)="filter = $event" 
+    [value] = "filter"
+    >
+</ap-search>
+
+
+<!-- Aqui se faz a utilização do componente photos, é feito o data-binding da propiedade photos de photo-list.component.ts
+     com a propriedade de photos de photos.component.ts -->
+<ap-photos [photos] = "photos | filterByDescription: filter" ></ap-photos>
+
+    <ap-load-button 
+        (click)="load()"
+        [hasMore]="hasMore"
+    >
+    </ap-load-button>

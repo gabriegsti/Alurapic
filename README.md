@@ -1,3 +1,7 @@
+
+## Extra Information 
+This project is part of my study about angular in this quarantine.  This site is a SPA, made in TypeScript, JavaScript and Angular. It is pool of pictures that are avalaible in the api.
+
 # Alurapic
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.
